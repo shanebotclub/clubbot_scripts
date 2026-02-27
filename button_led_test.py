@@ -1,17 +1,17 @@
 import RPi.GPIO as GPIO
 import time
 
-
-BUTTON_PINS = 
-{
+# -----------------------------
+# Pin assignments
+# -----------------------------
+BUTTON_PINS = {
     "Red": 4,
     "Green": 6,
     "Blue": 5,
     "Yellow": 15
 }
 
-LED_PINS = 
-{
+LED_PINS = {
     "Red": 14,
     "Green": 12,
     "Blue": 26,
