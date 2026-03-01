@@ -1,4 +1,4 @@
-import smbus2
+import smbus
 import time
 
 # MPU6050 Registers
