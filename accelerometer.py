@@ -6,7 +6,7 @@ MPU6050_ADDR = 0x68
 PWR_MGMT_1   = 0x6B
 ACCEL_XOUT_H = 0x3B
 
-bus = smbus2.SMBus(1)
+bus = smbus.SMBus(1)
 
 def read_word(reg):
     high = bus.read_byte_data(MPU6050_ADDR, reg)
